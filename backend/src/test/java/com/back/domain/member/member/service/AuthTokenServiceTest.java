@@ -32,7 +32,7 @@ public class AuthTokenServiceTest {
     @Value("${custom.jwt.secretKey}")
     private String jwtSecretKey;
 
-    @Value("${custom.accessToken.expireSeconds}")
+    @Value("${custom.accessToken.expirationSeconds}")
     private int accessTokenExpireSeconds;
 
 
