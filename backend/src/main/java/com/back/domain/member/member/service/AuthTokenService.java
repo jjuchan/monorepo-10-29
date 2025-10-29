@@ -12,7 +12,7 @@ public class AuthTokenService {
     @Value("${custom.jwt.secretKey}")
     private String jwtSecretKey;
 
-    @Value("${custom.accessToken.expireSeconds}")
+    @Value("${custom.accessToken.expirationSeconds}")
     private int accessTokenExpireSeconds;
 
     String genAccessToken(Member member) {
